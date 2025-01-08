@@ -9,8 +9,12 @@
   padding: 0;
 }
 
+html,
 body {
   font-family: Roboto, Georgia, serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 a {
@@ -71,6 +75,7 @@ button.sign-up {
   text-align: center;
   color: #e5e7eb;
   font-size: 18px;
+  margin-top: auto;
 }
 
 .section-1 .top {
@@ -99,9 +104,9 @@ button.sign-up {
   gap: 20px;
 }
 
-/* .section-1 .bottom .right { */
-/* display: flex; */
-/* } */
+.section-1 .bottom .right {
+  margin-left: auto;
+}
 
 .header-logo {
   font-size: 24px;
@@ -201,6 +206,10 @@ button.sign-up {
   color: #f9faf8;
   background-color: #3882f6;
   border: 2px solid #f9faf8;
+  min-width: 160px;
+}
+
+.section-4 .right {
   margin-left: auto;
 }
 
