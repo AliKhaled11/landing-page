@@ -58,7 +58,6 @@ button.sign-up {
   background-color: #e5e7eb;
   padding: 40px 350px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 20px;
@@ -183,6 +182,11 @@ button.sign-up {
   color: #1f2937;
 }
 
+.section-3 .quote-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 .section-3 .quote-author {
   align-self: flex-end;
   font-weight: 900;
